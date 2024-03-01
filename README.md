@@ -8,6 +8,7 @@
 To use Promises in your JavaScript code:
 
 1.)Create a new Promise using the Promise constructor.
+
 2.)Inside the Promise executor function, perform your asynchronous operation.
 Call resolve(value) when the operation is successful, passing the resulting value.
 Call reject(error) if the operation fails, passing an error object.
